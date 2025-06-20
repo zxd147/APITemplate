@@ -47,7 +47,6 @@ logs/
 .DS_Store
 
 # other
-./temp/
 app/static/images
 app/static/files
 app/static/upload
