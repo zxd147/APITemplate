@@ -4,7 +4,7 @@
 SERVICE_NAME="APITemplate"
 PID_FILE="/tmp/${SERVICE_NAME}.pid"
 LOG_FILE="output.log"
-PYTHON_PATH="/opt/anaconda3/envs/oa/bin/python"
+PYTHON_PATH="/opt/anaconda3/envs/api/bin/python"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 # 设置模块查找路径为项目根目录
 export PYTHONPATH="$SCRIPT_DIR"
